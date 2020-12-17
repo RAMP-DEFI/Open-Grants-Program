@@ -17,7 +17,7 @@ Please provide the following:
   * A brief description of the project.
   RAMP DEFI unlocks liquid capital from staked assets.
   * An indication of how you will integrate this project into Substrate / Polkadot / Kusama.
-  - rStake on Polkadot
+  - rStake on Polkadot and  collatoralization of Polkadot into Native DOTUSD
   - launching Polkadot versions of rUSD and RAMP
   * An indication of why your team is interested in creating this project.
   We're solving this problem to unlock the liquidity across chains.
@@ -40,12 +40,12 @@ Cross-chain functionality is one of the core tenets of Polkadot and would open a
 
 ### Team members
 * Name of team leader
-Lawrence Lim
+Lawrence Lim (CEO, Project Lead, Co-founder)
 * Names of team members	
-Loh Zheng Rong
-Caspar Oostendorp
-Anu Nair
-Jeannette Zhang
+Loh Zheng Rong (COO/CMO, Marketing Lead, Co-founder)
+Caspar Oostendorp (Technical Lead)
+Anu Nair (Blockchain Lead)
+Jeannette Zhang (Operations Lead)
 
 ### Contact
 * **Contact Name:** LOH ZHENG RONG
@@ -86,28 +86,30 @@ To assist you in defining it, we created a document with examples for some grant
 * Deliverables 0a-0d are mandatory and should not be removed, unless you explicitly specify a reason within the PR's `Additional Notes` section (e.g. Milestone X is research oriented and as such there is no code to test)
 
 ### Overview
-* **Total Estimated Duration:** Duration of the whole project (e.g. 2 months)
-* **Full-time equivalent (FTE):**  Workload of an employed person ([see](https://en.wikipedia.org/wiki/Full-time_equivalent)) (e.g. 2 FTE)
-* **Total Costs:** Amount of Payment in BTC for the whole project. The total amount of funding needs to be below $30k at the time of submission. (e.g. 0.80 BTC)
+* **Total Estimated Duration:** 3 Months / POC
+* **Full-time equivalent (FTE):**  20.25
+* **Total Costs:** 1.55 BTC
 
-### Milestone 1 Example — Implement Substrate Modules 
-* **Estimated Duration:** 1 month
-* **FTE:**  1
-* **Costs:** 0.75 BTC
+### Milestone 1 Summary
 
 | Number | Deliverable | Specification |
 | ------------- | ------------- | ------------- |
 | 0a. | License | Apache 2.0 / MIT / Unlicense |
-| 0b. | Documentation | We will provide both inline documentation of the code and a basic tutorial that explains how a user can (for example) spin up one of our Substrate nodes. Once the node is up, it will be possible to send test transactions that will show how the new functionality works. |
-| 0c. | Testing Guide | The code will have unit-test coverage (min. 70%) to ensure functionality and robustness. In the guide we will describe how to run these tests | 
-| 0d. | Article/Tutorial | We will write an article or tutorial that explains the work done as part of the grant. 
-| 1. | Substrate module: X | We will create a Substrate module that will... (Please list the functionality that will be coded for the first milestone) |  
-| 2. | Substrate module: Y | We will create a Substrate module that will... |  
-| 3. | Substrate module: Z | We will create a Substrate module that will... |  
-| 4. | Substrate chain | Modules X, Y & Z of our custom chain will interact in such a way... (Please describe the deliverable here as detailed as possible) |  
-| 5. | Docker | We will provide a dockerfile to demonstrate the full functionality of our chain |
+| 0b. | Documentation | We will provide both inline documentation of the code and a full tutorial that explains how to interact and communicate with the testnet protocol |
+| 0c. | Testing Guide | The code will have unit-test coverage (min. 90%) to ensure functionality and robustness. In the guide we will describe how to run these tests | 
+| 0d. | Medium Article | We will create a medium article or tutorial that sannounces all deliveries to the community once evaluation is passed.
+| 1. | Testing | We will conduct testing of the developed functionalities on Westnet testnet. |  
+| 2. | Substrate module: A | We will allow staking/unstaking of DOT |  
+| 3. | Substrate module: B | We will allow creation of wDOT|  
+| 4. | Substrate module: C | We will allow collatoralization of wDOT into DOTUSD |  
+| 5. | Substrate module: D | We will allow minting of rUSD |  
+| 6. | Repository | Repository including a README that describes the milestone and explains how to run, test and contribute |
+| 7. | Docker | A docker container that will also run on CI to test the deliverables of the milestone |
 
 ### Milestone 2 Example — Additional features
+* **Estimated Duration:** 1 month
+* **FTE:**  1
+* **Costs:** 0.75 BTC
 ...
 
 ## Future Plans
