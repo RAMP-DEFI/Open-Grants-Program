@@ -66,8 +66,11 @@ Senior Blockchain (Cross-chain) engineers [TBA]
 * https://github.com/RAMP-DEFI
 
 ### Team LinkedIn Profiles
-* https://www.linkedin.com/<person_1>
-* https://www.linkedin.com/<person_2>
+* Lawrence Lim https://www.linkedin.com/in/lawrencelimhz/
+* Loh Zheng Rong https://www.linkedin.com/in/lohzhengrong/
+* Caspar Oostendorp https://www.linkedin.com/in/caspar-oostendorp-7bb82873/
+* Anu Nair https://www.linkedin.com/in/anu-b-nair-0551763a/
+* Jeanette Zhang https://www.linkedin.com/in/jeanettez/
 
 ## Development Roadmap :nut_and_bolt: 
 
@@ -112,13 +115,26 @@ To assist you in defining it, we created a document with examples for some grant
 * **Costs:** 0.75 BTC
 ...
 
+## Community Engagement
+We plan to write several pieces about RAMPDEFI implementation. They include, but are not limited to:
+
+Weekly Medium Articles
+Daily Twitter Threads and Posts
+We also intend to engage community by running range of incentivised testnets to get more feedback from the existing end-users to improve our product.
+
+
 ## Future Plans
-Please include the team's long-term plans and intentions.
+Future Developments will focus on the following:
+
+Incentive programs for alliance partners
+Bug bounties
+Hackathon
+Community grants to develop new products under the RAMP DEFI Eco-system
 
 ## Additional Information :heavy_plus_sign: 
 Any additional information that you think is relevant to this application that hasn't already been included.
 
 Possible additional information to include:
-* What work has been done so far?
-* Are there are any teams who have already contributed (financially) to the project?
-* Have you applied for other grants so far?
+* What work has been done so far? We've live with 2 RAMP Vaults (TVL 2.8 Mil USDT at time of writing) and 2 rStake across 2 major blockchains (IOST and TomoChain). Intergrated Chainlink for price feed and have accomplished industry first cross-chain stake farming.
+* Are there are any teams who have already contributed (financially) to the project? Our expenses have been covered thus far via investments from world class investors who took part in our private sale round such as Alameda Research, Mechanism Capital, Arrington XRP, Parafi Capital, among others. We have further investment interest for follow-on investment should the need arise between the use of this grant and our next source of funding, whether that be the General Grants program or another VC-led investment.
+* Have you applied for other grants so far? No.
