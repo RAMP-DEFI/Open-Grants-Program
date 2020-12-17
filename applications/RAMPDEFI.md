@@ -2,8 +2,8 @@
 
 > This document is referenced in the terms and conditions and therefore needs to contain all the required information. Don't remove any of the mandatory parts presented in bold letters or as headlines! See the [Open Grants Program Process](https://github.com/w3f/Open-Grants-Program/blob/master/README_2.md) on how to submit a proposal.
 
-* **Project Name:** Name of your project (e.g. DuoSwap Module)
-* **Team Name:** Legal name of your team (e.g. Duo)
+* **Project Name:** RAMP DEFI
+* **Team Name:** RAMP DEFI
 * **Payment Address:** BTC payment address. We don't accept payments for the program in other currencies at this stage. (e.g. 123mp123...)
 
 *The above combination of your GitHub account submitting the application and payment address will be your unique identifier during the program. Please keep them safe.*
@@ -15,43 +15,55 @@ If this application in response to an RFP then please indicate this on the first
 
 Please provide the following:
   * A brief description of the project.
+  RAMP DEFI unlocks liquid capital from staked assets.
   * An indication of how you will integrate this project into Substrate / Polkadot / Kusama.
+  - rStake on Polkadot
+  - launching Polkadot versions of rUSD and RAMP
   * An indication of why your team is interested in creating this project.
+  We're solving this problem to unlock the liquidity across chains.
 
 ### Project Details 
 We expect the teams to already have a solid idea about the project's expected final state.
 
 Therefore, we ask the teams to submit (where relevant):
-* Mockups/designs of any UI components
-* API specifications of the core functionality
-* An overview of the technology stack to be used
+* Mockups/designs of any UI components: https://app.rampdefi.com/#/stake
+* API specifications of the core functionality [TBA]
+* An overview of the technology stack to be used: Moonbeam EVM, AWS, Chainlink [To be added]
 * Documentation of core components, protocols, architecture etc. to be deployed
-* PoC/MVP or other relevant prior work or research on the topic
+* PoC/MVP or other relevant prior work or research on the topic: https://app.rampdefi.com/#/stake
 
 ### Ecosystem Fit 
 Are there any other projects similar to yours? If so, how is your project different?
+Cross-chain functionality is one of the core tenets of Polkadot and would open additional legos to be built on top of the RAMP infrastructure. There's some similarity in Stafi. We create assets on the native blockchain instead of just wrapping the assets.
 
 ## Team :busts_in_silhouette:
 
 ### Team members
 * Name of team leader
+Lawrence Lim
 * Names of team members	
+Loh Zheng Rong
+Caspar Oostendorp
+Anu Nair
+Jeannette Zhang
 
 ### Contact
-* **Contact Name:** Full name of the contact person (e.g. John Brown)
-* **Contact Email:** Contact email (e.g. john@duo.com)
+* **Contact Name:** LOH ZHENG RONG
+* **Contact Email:** zr@rampdefi.com
 * Website
+https://app.rampdefi.com/#/
+https://rampdefi.com/
 
 ### Legal Structure 
-* **Registered Address:** Address of your registered legal entity, if available. Please keep it on one line. (e.g. High Street 1, London LK1 234, UK)
-* **Registered Legal Entity:** Name of your registered legal entity, if available. (e.g. Duo Ltd.)
+* **Registered Address:** 14 ROBINSON ROAD #08-01A FAR EAST FINANCE BUILDING S(048545)
+* **Registered Legal Entity:** Ramp Protocol Pte Ltd
 
 ### Team's experience
-Please describe the team's relevant experience.  If the project involves development work, then we'd appreciated if you can single out a few interesting code commits made by team members on their past projects. For research-related grants, references to past publications and projects in a related domain are helpful.  
+Please describe the team's relevant experience.  If the project involves development work, then we'd appreciated if you can single out a few interesting code commits made by team members on their past projects. For research-related grants, references to past publications and projects in a related domain are helpful. 
+Senior Blockchain (Cross-chain) engineers [TBA]
 
 ### Team Code Repos
-* https://github.com/<your_repo_1>
-* https://github.com/<your_repo_2>
+* https://github.com/RAMP-DEFI
 
 ### Team LinkedIn Profiles
 * https://www.linkedin.com/<person_1>
