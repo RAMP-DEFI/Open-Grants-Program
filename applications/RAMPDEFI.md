@@ -7,14 +7,21 @@
 
 * **Project Name:** RAMP DEFI
 * **Team Name:** RAMP DEFI
-* **Payment Address:** BTC payment address. We don't accept payments for the program in other currencies at this stage. (e.g. 123mp123...)
+* **Payment Address:** 1DQNr9EyYmoS5hbwRzQkfNrw5DS247cpF8
 
 *The above combination of your GitHub account submitting the application and payment address will be your unique identifier during the program. Please keep them safe.*
 
 ## Project Overview :page_facing_up: 
 If this application in response to an RFP then please indicate this on the first line of this section.
 
-### Overview
+### Project Overview
+
+**Overview**
+RAMP DEFI is a global decentralized finance solution that focuses on unlocking liquid capital from staked digital assets. Using the RAMP solution, users with staked assets can continue to receive staking rewards, retain capital appreciation potential on their staked portfolio, and unlock liquid capital to invest in new opportunities at the same time.
+
+The addressable market for staked assets today is upwards of USD25bn, and as the industry-leading solution, RAMP DEFI has a vision of unlocking USD1bn or more in "Total Value Unlocked (TVU)" for users by end 2021.
+
+RAMP DEFI vaults and rStake has launched with major blockchains IOST and Tomochain and has total first phase TVL of 2.8 Million USDT worth of assets.
 
 Please provide the following:
   * A brief description of the project.
@@ -28,11 +35,11 @@ Please provide the following:
 ### Project Details 
 ![](https://rampdefi.com/assets/03442414724cd1fd5c0b68fa0b808125.png)
 
-
 We expect the teams to already have a solid idea about the project's expected final state.
 
 Therefore, we ask the teams to submit (where relevant):
 * Mockups/designs of any UI components: https://app.rampdefi.com/#/stake
+
 * API specifications of the core functionality [TBA]
 * An overview of the technology stack to be used: Moonbeam EVM, AWS, Chainlink [To be added]
 * Documentation of core components, protocols, architecture etc. to be deployed
@@ -93,6 +100,18 @@ To assist you in defining it, we created a document with examples for some grant
 * Please commit to providing a dockerfiles for the delivery of your project. 
 * Please indicate the milestone duration, as well as number of Full-Time Employees working on each milestone, and include the number of days along with their cost per day.
 * Deliverables 0a-0d are mandatory and should not be removed, unless you explicitly specify a reason within the PR's `Additional Notes` section (e.g. Milestone X is research oriented and as such there is no code to test)
+
+Q4 2020
+• eMint development.
+• eFarm development.
+• rPool development.
+• RAMP farming structure to be released.
+• RAMP alpha and beta pool farming to begin.
+Q1 2021
+• rFinance development.
+• RAMP delta pool farming to begin.
+• RAMP governance structure.
+• Decentralization of RAMP governance.
 
 ### Overview
 * **Total Estimated Duration:** 3 Months / POC
