@@ -167,10 +167,10 @@ Community grants to develop new products under the RAMP DEFI Eco-system
 ## Additional Information :heavy_plus_sign: 
 Any additional information that you think is relevant to this application that hasn't already been included.
 
-**What work has been done so far?** We've live with 2 RAMP Vaults (TVL 2.8 Mil USDT at time of writing) and 2 rStake across 2 major blockchains (IOST and TomoChain). Intergrated Chainlink for price feed and have accomplished industry first cross-chain stake farming. 
+* **What work has been done so far?** We've live with 2 RAMP Vaults (TVL 2.8 Mil USDT at time of writing) and 2 rStake across 2 major blockchains (IOST and TomoChain). Intergrated Chainlink for price feed and have accomplished industry first cross-chain stake farming. 
 Integrated with major partners such as Solana, Elrond, IOST, NULs, Tomochain, Injective, Moonstake & Crust.
-**Are there are any teams who have already contributed (financially) to the project?** Our expenses have been covered thus far via investments from world class investors who took part in our private sale round such as Alameda Research, Mechanism Capital, Arrington XRP, Parafi Capital, among others. We have further investment interest for follow-on investment should the need arise between the use of this grant and our next source of funding, whether that be the General Grants program or another VC-led investment.
-**Have you applied for other grants so far?** Yes.
+* **Are there are any teams who have already contributed (financially) to the project?** Our expenses have been covered thus far via investments from world class investors who took part in our private sale round such as Alameda Research, Mechanism Capital, Arrington XRP, Parafi Capital, among others. We have further investment interest for follow-on investment should the need arise between the use of this grant and our next source of funding, whether that be the General Grants program or another VC-led investment.
+* **Have you applied for other grants so far?** Yes.
 
 
 > This document is referenced in the terms and conditions and therefore needs to contain all the required information. Don't remove any of the mandatory parts presented in bold letters or as headlines! See the [Open Grants Program Process](https://github.com/w3f/Open-Grants-Program/blob/master/README_2.md) on how to submit a proposal.
