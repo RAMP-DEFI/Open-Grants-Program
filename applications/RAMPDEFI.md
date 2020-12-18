@@ -32,6 +32,7 @@ Please provide the following:
 We're solving this problem to unlock the liquidity across chains.
 
 ### Project Details 
+Details to be edited
 ![](https://rampdefi.com/assets/03442414724cd1fd5c0b68fa0b808125.png)
 
 We expect the teams to already have a solid idea about the project's expected final state.
