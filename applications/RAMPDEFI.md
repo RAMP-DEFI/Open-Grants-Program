@@ -1,3 +1,6 @@
+# RAMPDEFI Grant Proposal
+![](https://rampdefi.com/assets/Ramplogoblack.png)
+
 # Open Grant Proposal
 
 > This document is referenced in the terms and conditions and therefore needs to contain all the required information. Don't remove any of the mandatory parts presented in bold letters or as headlines! See the [Open Grants Program Process](https://github.com/w3f/Open-Grants-Program/blob/master/README_2.md) on how to submit a proposal.
@@ -23,6 +26,9 @@ Please provide the following:
   We're solving this problem to unlock the liquidity across chains.
 
 ### Project Details 
+![](https://rampdefi.com/assets/03442414724cd1fd5c0b68fa0b808125.png)
+
+
 We expect the teams to already have a solid idea about the project's expected final state.
 
 Therefore, we ask the teams to submit (where relevant):
@@ -134,7 +140,6 @@ Community grants to develop new products under the RAMP DEFI Eco-system
 ## Additional Information :heavy_plus_sign: 
 Any additional information that you think is relevant to this application that hasn't already been included.
 
-Possible additional information to include:
-* What work has been done so far? We've live with 2 RAMP Vaults (TVL 2.8 Mil USDT at time of writing) and 2 rStake across 2 major blockchains (IOST and TomoChain). Intergrated Chainlink for price feed and have accomplished industry first cross-chain stake farming.
-* Are there are any teams who have already contributed (financially) to the project? Our expenses have been covered thus far via investments from world class investors who took part in our private sale round such as Alameda Research, Mechanism Capital, Arrington XRP, Parafi Capital, among others. We have further investment interest for follow-on investment should the need arise between the use of this grant and our next source of funding, whether that be the General Grants program or another VC-led investment.
-* Have you applied for other grants so far? No.
+**What work has been done so far?** We've live with 2 RAMP Vaults (TVL 2.8 Mil USDT at time of writing) and 2 rStake across 2 major blockchains (IOST and TomoChain). Intergrated Chainlink for price feed and have accomplished industry first cross-chain stake farming.
+**Are there are any teams who have already contributed (financially) to the project?** Our expenses have been covered thus far via investments from world class investors who took part in our private sale round such as Alameda Research, Mechanism Capital, Arrington XRP, Parafi Capital, among others. We have further investment interest for follow-on investment should the need arise between the use of this grant and our next source of funding, whether that be the General Grants program or another VC-led investment.
+**Have you applied for other grants so far?** No.
