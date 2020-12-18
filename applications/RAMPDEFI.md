@@ -37,11 +37,21 @@ We're solving this problem to unlock the liquidity across chains.
 We expect the teams to already have a solid idea about the project's expected final state.
 
 Therefore, we ask the teams to submit (where relevant):
-* Mockups/designs of any UI components: https://app.rampdefi.com/#/stake
+* Mockups/designs of any UI components: 
+https://app.rampdefi.com
+![](https://rampdefi.com/assets/app_dashboard_front.png)
+![](https://rampdefi.com/assets/app_dashboard.png)
+![](https://rampdefi.com/assets/app_dashboard_stake.png)
 
 * API specifications of the core functionality [TBA]
 * An overview of the technology stack to be used: Moonbeam EVM, AWS, Chainlink [To be added]
 * Documentation of core components, protocols, architecture etc. to be deployed
+
+rStake is an aggregator of staking nodes on the participating native blockchains, to earn staking rewards.
+
+rMint takes in non-ERC20 digital assets as collateral and mints rUSD against this collateral with a safe liquidation buffer. 
+
+
 * PoC/MVP or other relevant prior work or research on the topic: https://app.rampdefi.com/#/stake
 
 ### Ecosystem Fit 
