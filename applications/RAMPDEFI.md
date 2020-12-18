@@ -55,19 +55,22 @@ rMint takes in non-ERC20 digital assets as collateral and mints rUSD against thi
 * PoC/MVP or other relevant prior work or research on the topic: https://app.rampdefi.com/#/stake
 
 ### Ecosystem Fit 
-Are there any other projects similar to yours? If so, how is your project different?
-Cross-chain functionality is one of the core tenets of Polkadot and would open additional legos to be built on top of the RAMP infrastructure. There's some similarity in Stafi though we create assets on the native blockchain instead of just wrapping the assets.
+Cross-chain functionality is one of the core tenets of Polkadot and the capital efficiency that RAMP DEFI is building would be a core piece to enable further evolution of open finance and Defi within the blockchain space. 
+
+We see some projects who seek to solve this similar issue, one such example is Makerdao where ETH is used as collateral to extract additional value from the asset and Kava which uses a wrapped solution. There are however, drawbacks as Makerdao and Kava are mainly only on Ethereum blockchain and have not ventured into cross blockchain flow of value.
+
+#### To solve this we intend to build holistically
+
+With multiple components already built by RAMP DEFI on other blockchains, we are well poised to bring over massive value from other blockchains into the Polkadot eco-system. By building up the rStake and rMint port on polkadot, this provides a multi-pronged benefit of capital efficiency from staked assets on Polkadot and allow for the inflow of value capital from other blockchains.
 
 ## Team :busts_in_silhouette:
 
 ### Team members
-* Name of team leader
-Lawrence Lim (CEO, Project Lead, Co-founder)
-* Names of team members	
-Loh Zheng Rong (COO/CMO, Marketing Lead, Co-founder)
-Caspar Oostendorp (Technical Lead)
-Anu Nair (Blockchain Lead)
-Jeannette Zhang (Operations Lead)
+* Lawrence Lim (CEO, Project Lead, Co-founder)
+* Loh Zheng Rong (COO/CMO, Marketing Lead, Co-founder)
+* Caspar Oostendorp (Technical Lead)
+* Anu Nair (Blockchain Lead)
+* Jeannette Zhang (Operations Lead)
 
 ### Contact
 * **Contact Name:** LOH ZHENG RONG
@@ -88,11 +91,11 @@ Senior Blockchain (Cross-chain) engineers [TBA]
 * https://github.com/RAMP-DEFI
 
 ### Team LinkedIn Profiles
-* Lawrence Lim https://www.linkedin.com/in/lawrencelimhz/
-* Loh Zheng Rong https://www.linkedin.com/in/lohzhengrong/
-* Caspar Oostendorp https://www.linkedin.com/in/caspar-oostendorp-7bb82873/
-* Anu Nair https://www.linkedin.com/in/anu-b-nair-0551763a/
-* Jeanette Zhang https://www.linkedin.com/in/jeanettez/
+* **Lawrence Lim** https://www.linkedin.com/in/lawrencelimhz/
+* **Loh Zheng Rong** https://www.linkedin.com/in/lohzhengrong/
+* **Caspar Oostendorp** https://www.linkedin.com/in/caspar-oostendorp-7bb82873/
+* **Anu Nair** https://www.linkedin.com/in/anu-b-nair-0551763a/
+* **Jeanette Zhang** https://www.linkedin.com/in/jeanettez/
 
 ## Development Roadmap :nut_and_bolt: 
 
