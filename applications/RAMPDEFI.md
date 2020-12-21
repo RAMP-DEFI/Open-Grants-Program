@@ -89,7 +89,7 @@ We see some projects who seek to solve this similar issue, one such example is M
 
 ### To solve this we intend to build holistically
 
-With multiple components already built by RAMP DEFI on other blockchains, we are well poised to bring over massive value from other blockchains into the Polkadot eco-system. By building up the rStake and rMint port on polkadot, this provides a multi-pronged benefit of capital efficiency from staked assets on Polkadot and allow for the inflow of value capital from other blockchains.
+With multiple components already built by RAMP DEFI on other blockchains, we are well poised to bring over massive value from other blockchains into the Polkadot eco-system. By building up the rStake and rMint port on polkadot, this provides a multi-pronged benefit of capital efficiency from staked assets on Polkadot whilst contributing to the security of the network and allow for the inflow of value capital from other blockchains.
 
 ## Team :busts_in_silhouette:
 
