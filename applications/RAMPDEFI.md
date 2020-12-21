@@ -51,7 +51,7 @@ rStake is an aggregator of staking nodes on the participating native blockchains
 
 RAMP DEFI uses a “Collateralization Ratio” system to ensure that the rMinted DOTUSD/rUSD is always fully collateralized.
 
-The “Minimum Collateralization Ratio (MCR)” for staked digital assets on each blockchain starts at a default 300%. This means that $300 worth of Token X can at most, mint $100 worth of DOTUSD/rUSD. The user may choose to issue at a higher Collateralization Ratio if a larger buffer is preferred (e.g. 400% collateralization: stake $200 of Token X to issue $50 of rUSD).
+The “Minimum Collateralization Ratio (MCR)” for staked digital assets on each blockchain starts at a default 300%. This means that $300 worth of Token X can at most, mint $100 worth of DOTUSD/rUSD. The user may choose to issue at a higher Collateralization Ratio if a larger buffer is preferred (e.g. 600% collateralization: stake $300 of Token X to issue $50 of rUSD).
 
 ![](https://rampdefi.com/assets/rDollar-Collate.png)
 
