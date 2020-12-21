@@ -53,27 +53,29 @@ RAMP DEFI uses a “Collateralization Ratio” system to ensure that the rMinted
 
 The “Minimum Collateralization Ratio (MCR)” for staked digital assets on each blockchain starts at a default 300%. This means that $300 worth of Token X can at most, mint $100 worth of DOTUSD/rUSD. The user may choose to issue at a higher Collateralization Ratio if a larger buffer is preferred (e.g. 600% collateralization: stake $300 of Token X to issue $50 of rUSD).
 
+
 ![](https://rampdefi.com/assets/Collateral.png)
+
 
 The collateralization ratio at which liquidation is triggered, called the “Liquidation Ratio (LR)”, starts at a default 120% for each blockchain.
 
-![](https://rampdefi.com/assets/Liquidation.png)
+
+![](https://rampdefi.com/assets/Liquidate.png)
+
 
 The Collateralization Ratio at which a re-collateralization request is triggered (“Re-Collateralization Ratio”) is the midpoint between the Minimum Collateralization Ratio and the Liquidation Ratio.
-![](https://rampdefi.com/assets/recollateralization.png)
+
+
+![](https://rampdefi.com/assets/recollateral.png)
+
 
 In the event that a user receives a re-collateralization request, the user simply needs to send more Token X into the native staking contract to issue more Wrapped Token X and re-collateralize the position back to the MCR.
 
-In the event that the Liquidation Ratio is triggered, the users’ tokens are considered “sold” to rPool, the universal liquidity pool that underpinned the RAMP ecosystem 
-. 
+In the event that the Liquidation Ratio is triggered, the users’ tokens are considered “sold” to rPool, the universal liquidity pool that underpinned the RAMP ecosystem.
+
 rPool liquidates these tokens on exchanges and deposit the liquidated value into rPool. At the same time, rPool uses the existing liquidity within the pool to repurchase the same amount of rUSD minted by the user from the open market. 
 
 The difference in value between the liquidated assets and the repurchased rUSD accrue into rPool, to be distributed to RAMP token holders during the weekly value distribution.
-
--Collateralization
--rMint of DOTUSD
--rMint of rUSD pegging DOTUSD and rUSD 1:1
-
 
 
 
