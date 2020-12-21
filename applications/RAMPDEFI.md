@@ -27,7 +27,7 @@ In order to fulfil RAMP DEFI's vision of unlocking liquid capital for frozen ass
 ## Project Details 
 
 Overview of RAMP System built on Polkadot:
-![](https://rampdefi.com/assets/DOT-Eco-system.jpg)
+![](https://rampdefi.com/assets/PolkadotRAMP.jpg)
 
 Live UI designs:
 https://app.rampdefi.com
