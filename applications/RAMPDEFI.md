@@ -180,8 +180,14 @@ Integrated with major partners such as Solana, Elrond, IOST, NULs, Tomochain, In
 * **Have you applied for other grants so far?** 
 Yes.
 
-
-
+* **How can I get involved?** 
+Anyone looking to get involved with RAMP DEFI is welcomed to reach out to us through the following:
+Email: team@rampdefi.com
+Twitter: https://twitter.com/RampDefi
+Telegram: https://t.me/rampdefiofficial
+LinkedIn: https://www.linkedin.com/company/rampdefi
+Discord: https://discord.gg/WY5TU7b
+Medium: https://medium.com/rampdefi
 
 
 
