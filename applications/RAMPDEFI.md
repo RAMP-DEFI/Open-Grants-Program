@@ -146,7 +146,7 @@ Senior Blockchain (Cross-chain) engineers [TBA]
 | 2. | Substrate module: A | Staking/unstaking of DOT |  
 | 3. | Substrate module: B | Creation of wDOT|  
 | 4. | Substrate module: C | Collatoralization of wDOT into DOTUSD |  
-| 5. | Substrate module: D | Minting of rUSD on Polkadot |
+| 5. | Substrate module: D | Minting of rDollar on Polkadot |
 | 6. | Substrate module: E | Minting of RAMP on Polkadot |
 | 7. | Repository | Repository including a README that describes the milestone and explains how to run, test and contribute |
 | 8. | Docker | A docker container that will also run on CI to test the deliverables of the milestone |
@@ -188,57 +188,3 @@ Yes.
 
 
 
-ENDS HERE THESE ARE SPARE INFORMATION
-
-> This document is referenced in the terms and conditions and therefore needs to contain all the required information. Don't remove any of the mandatory parts presented in bold letters or as headlines! See the [Open Grants Program Process](https://github.com/w3f/Open-Grants-Program/blob/master/README_2.md) on how to submit a proposal.
-
-*The above combination of your GitHub account submitting the application and payment address will be your unique identifier during the program. Please keep them safe.*
-
-We expect the teams to already have a solid idea about the project's expected final state.
-
-Therefore, we ask the teams to submit (where relevant):
-
-Please provide the following:
-  * A brief description of the project.
-  RAMP DEFI unlocks liquid capital from staked assets.
-  * An indication of how you will integrate this project into Substrate / Polkadot / Kusama.
-  - rStake on Polkadot and  collatoralization of Polkadot into Native DOTUSD
-  - launching Polkadot versions of rUSD and RAMP
-  * An indication of why your team is interested in creating this project.
-We're solving this problem to unlock the liquidity across chains.
-
-
-## Project Overview :page_facing_up: 
-If this application in response to an RFP then please indicate this on the first line of this section.
-
-### Milestone 2 Example — Additional features
-* **Estimated Duration:** 1 month
-* **FTE:**  1
-* **Costs:** 0.75 BTC
-...
-
-This section should break out the development roadmap into a number of milestones. Since the milestones will appear in the grant contract, it helps to describe the functionality we should expect, plus how we can check that such functionality exists in the product. Whenever milestones are delivered, we refer to the contract to ensure that everything has been delivered as expected.
-
-Below we provide an **example roadmap**. In the descriptions it should be clear how the project is related to Substrate and/or Polkadot. We recommend that the scope of the work can fit within a 3 month period and that teams structure their roadmap as 1 month = 1 milestone. 
-
-For each milestone:
-* Please be sure to include a specification of your software. Treat it as a contract - the level of detail must be enough to later verify that the software meets the specification.
-To assist you in defining it, we created a document with examples for some grant categories [here](../src/grant_guidelines_per_category.md).
-* Please include total amount of funding requested per milestone.
-* Please note that we require documentation (e.g. tutorials, API specifications, architecture details) in each milestone. This ensures that the code can be widely used by the community.
-* Please provide a test suite, comprising unit and integration tests, along with a guide on how to run these.
-* Please commit to providing a dockerfiles for the delivery of your project. 
-* Please indicate the milestone duration, as well as number of Full-Time Employees working on each milestone, and include the number of days along with their cost per day.
-* Deliverables 0a-0d are mandatory and should not be removed, unless you explicitly specify a reason within the PR's `Additional Notes` section (e.g. Milestone X is research oriented and as such there is no code to test)
-
-Q4 2020
-• eMint development.
-• eFarm development.
-• rPool development.
-• RAMP farming structure to be released.
-• RAMP alpha and beta pool farming to begin.
-Q1 2021
-• rFinance development.
-• RAMP delta pool farming to begin.
-• RAMP governance structure.
-• Decentralization of RAMP governance.
