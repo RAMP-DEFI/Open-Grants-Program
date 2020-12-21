@@ -7,7 +7,7 @@
 * **Team Name:** RAMP DEFI
 * **Payment Address:** 1DQNr9EyYmoS5hbwRzQkfNrw5DS247cpF8
 
-### Project Overview
+## Project Overview
 
 **Overview**
 RAMP DEFI is a global decentralized finance solution that focuses on unlocking liquid capital from staked digital assets. Using the RAMP solution, users with staked assets can continue to receive staking rewards, retain capital appreciation potential on their staked portfolio, and unlock liquid capital to invest in new opportunities at the same time.
@@ -24,12 +24,10 @@ In order to fulfil RAMP DEFI's vision of unlocking liquid capital for frozen ass
 
 
 
-### Project Details 
+## Project Details 
 
 Overview of RAMP System built on Polkadot:
 ![](https://rampdefi.com/assets/DOT-Eco-system.jpg)
-
-
 
 Live UI designs:
 https://app.rampdefi.com
@@ -37,21 +35,21 @@ https://app.rampdefi.com
 Live rStake system:
 https://app.rampdefi.com/#/stake
 
+### Current rStake for IOST and Tomochain
 ![](https://rampdefi.com/assets/app_dashboard_front.png)
 ![](https://rampdefi.com/assets/app_dashboard.png)
 ![](https://rampdefi.com/assets/app_dashboard_stake.png)
 
-* API specifications of the core functionality [TBA]
-* An overview of the technology stack to be used: Moonbeam EVM, AWS, Chainlink [To be added]
-* Documentation of core components, protocols, architecture etc. to be deployed
+## rStake
+rStake allows for active rewards staking through nodes on the participating native blockchains, to simultaneously earn staking rewards while enabling collateralization for unlocking of additional liquid capital.
 
-rStake is an aggregator of staking nodes on the participating native blockchains, to earn staking rewards.
--Staking/Unstaking of DOT
--wDOT
+Users would be able to Stake their DOT to strengthen the Polkadot eco-system and earn staking rewards.
 
-RAMP DEFI uses a “Collateralization Ratio” system to ensure that the rMinted DOTUSD/rUSD is always fully collateralized.
+## rCollateralization and rMint
 
-The “Minimum Collateralization Ratio (MCR)” for staked digital assets on each blockchain starts at a default 300%. This means that $300 worth of Token X can at most, mint $100 worth of DOTUSD/rUSD. The user may choose to issue at a higher Collateralization Ratio if a larger buffer is preferred (e.g. 600% collateralization: stake $300 of Token X to issue $50 of rUSD).
+RAMP DEFI uses a “Collateralization Ratio” system to ensure that the rMinted DOTUSD/rDollar is always fully collateralized.
+
+The “Minimum Collateralization Ratio (MCR)” for staked digital assets on each blockchain starts at a default 300%. This means that $300 worth of Token X can at most, mint $100 worth of DOTUSD/rDollar. The user may choose to issue at a higher Collateralization Ratio if a larger buffer is preferred (e.g. 600% collateralization: stake $300 of Token X to issue $50 of rDollar).
 
 
 ![](https://rampdefi.com/assets/Collateral.png)
@@ -73,10 +71,13 @@ In the event that a user receives a re-collateralization request, the user simpl
 
 In the event that the Liquidation Ratio is triggered, the users’ tokens are considered “sold” to rPool, the universal liquidity pool that underpinned the RAMP ecosystem.
 
-rPool liquidates these tokens on exchanges and deposit the liquidated value into rPool. At the same time, rPool uses the existing liquidity within the pool to repurchase the same amount of rUSD minted by the user from the open market. 
+rPool liquidates these tokens on exchanges and deposit the liquidated value into rPool. At the same time, rPool uses the existing liquidity within the pool to repurchase the same amount of rDollar minted by the user from the open market. 
 
 The difference in value between the liquidated assets and the repurchased rUSD accrue into rPool, to be distributed to RAMP token holders during the weekly value distribution.
 
+* API specifications of the core functionality [TBA]
+* An overview of the technology stack to be used: Moonbeam EVM, AWS, Chainlink [To be added]
+* Documentation of core components, protocols, architecture etc. to be deployed
 
 
 ### Ecosystem Fit 
@@ -124,31 +125,7 @@ Senior Blockchain (Cross-chain) engineers [TBA]
 
 ## Development Roadmap :nut_and_bolt: 
 
-This section should break out the development roadmap into a number of milestones. Since the milestones will appear in the grant contract, it helps to describe the functionality we should expect, plus how we can check that such functionality exists in the product. Whenever milestones are delivered, we refer to the contract to ensure that everything has been delivered as expected.
 
-Below we provide an **example roadmap**. In the descriptions it should be clear how the project is related to Substrate and/or Polkadot. We recommend that the scope of the work can fit within a 3 month period and that teams structure their roadmap as 1 month = 1 milestone. 
-
-For each milestone:
-* Please be sure to include a specification of your software. Treat it as a contract - the level of detail must be enough to later verify that the software meets the specification.
-To assist you in defining it, we created a document with examples for some grant categories [here](../src/grant_guidelines_per_category.md).
-* Please include total amount of funding requested per milestone.
-* Please note that we require documentation (e.g. tutorials, API specifications, architecture details) in each milestone. This ensures that the code can be widely used by the community.
-* Please provide a test suite, comprising unit and integration tests, along with a guide on how to run these.
-* Please commit to providing a dockerfiles for the delivery of your project. 
-* Please indicate the milestone duration, as well as number of Full-Time Employees working on each milestone, and include the number of days along with their cost per day.
-* Deliverables 0a-0d are mandatory and should not be removed, unless you explicitly specify a reason within the PR's `Additional Notes` section (e.g. Milestone X is research oriented and as such there is no code to test)
-
-Q4 2020
-• eMint development.
-• eFarm development.
-• rPool development.
-• RAMP farming structure to be released.
-• RAMP alpha and beta pool farming to begin.
-Q1 2021
-• rFinance development.
-• RAMP delta pool farming to begin.
-• RAMP governance structure.
-• Decentralization of RAMP governance.
 
 ### Overview
 * **Total Estimated Duration:** 3 Months / POC
@@ -184,19 +161,30 @@ Community engagement by running a range of incentivised testnets to get more fee
 ## Future Plans
 Future Developments will focus on the following:
 
-Incentive programs for alliance partners
+Incentive programs and multi-pronged collaboration for alliance partners
 Bug bounties
-Hackathon
-Community grants to develop new products under the RAMP DEFI Eco-system
+Community developer grants to develop new products under the RAMP DEFI Eco-system
+
 
 ## Additional Information :heavy_plus_sign: 
 Any additional information that you think is relevant to this application that hasn't already been included.
 
 * **What work has been done so far?** We've live with 2 RAMP Vaults (TVL 2.8 Mil USDT at time of writing) and 2 rStake across 2 major blockchains (IOST and TomoChain). Intergrated Chainlink for price feed and have accomplished industry first cross-chain stake farming. 
 Integrated with major partners such as Solana, Elrond, IOST, NULs, Tomochain, Injective, Moonstake & Crust.
+
 * **Are there are any teams who have already contributed (financially) to the project?** Our expenses have been covered thus far via investments from world class investors who took part in our private sale round such as Alameda Research, Mechanism Capital, Arrington XRP, Parafi Capital, among others. We have further investment interest for follow-on investment should the need arise between the use of this grant and our next source of funding, whether that be the General Grants program or another VC-led investment.
+
 * **Have you applied for other grants so far?** Yes.
 
+
+
+
+
+
+
+
+
+ENDS HERE THESE ARE SPARE INFORMATION
 
 > This document is referenced in the terms and conditions and therefore needs to contain all the required information. Don't remove any of the mandatory parts presented in bold letters or as headlines! See the [Open Grants Program Process](https://github.com/w3f/Open-Grants-Program/blob/master/README_2.md) on how to submit a proposal.
 
@@ -224,3 +212,29 @@ If this application in response to an RFP then please indicate this on the first
 * **FTE:**  1
 * **Costs:** 0.75 BTC
 ...
+
+This section should break out the development roadmap into a number of milestones. Since the milestones will appear in the grant contract, it helps to describe the functionality we should expect, plus how we can check that such functionality exists in the product. Whenever milestones are delivered, we refer to the contract to ensure that everything has been delivered as expected.
+
+Below we provide an **example roadmap**. In the descriptions it should be clear how the project is related to Substrate and/or Polkadot. We recommend that the scope of the work can fit within a 3 month period and that teams structure their roadmap as 1 month = 1 milestone. 
+
+For each milestone:
+* Please be sure to include a specification of your software. Treat it as a contract - the level of detail must be enough to later verify that the software meets the specification.
+To assist you in defining it, we created a document with examples for some grant categories [here](../src/grant_guidelines_per_category.md).
+* Please include total amount of funding requested per milestone.
+* Please note that we require documentation (e.g. tutorials, API specifications, architecture details) in each milestone. This ensures that the code can be widely used by the community.
+* Please provide a test suite, comprising unit and integration tests, along with a guide on how to run these.
+* Please commit to providing a dockerfiles for the delivery of your project. 
+* Please indicate the milestone duration, as well as number of Full-Time Employees working on each milestone, and include the number of days along with their cost per day.
+* Deliverables 0a-0d are mandatory and should not be removed, unless you explicitly specify a reason within the PR's `Additional Notes` section (e.g. Milestone X is research oriented and as such there is no code to test)
+
+Q4 2020
+• eMint development.
+• eFarm development.
+• rPool development.
+• RAMP farming structure to be released.
+• RAMP alpha and beta pool farming to begin.
+Q1 2021
+• rFinance development.
+• RAMP delta pool farming to begin.
+• RAMP governance structure.
+• Decentralization of RAMP governance.
