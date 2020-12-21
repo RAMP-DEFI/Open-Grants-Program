@@ -75,17 +75,19 @@ rPool liquidates these tokens on exchanges and deposit the liquidated value into
 
 The difference in value between the liquidated assets and the repurchased rUSD accrue into rPool, to be distributed to RAMP token holders during the weekly value distribution.
 
+
 * API specifications of the core functionality [TBA]
 * An overview of the technology stack to be used: Moonbeam EVM, AWS, Chainlink [To be added]
 * Documentation of core components, protocols, architecture etc. to be deployed
 
 
-### Ecosystem Fit 
+
+## Ecosystem Fit 
 Cross-chain functionality is one of the core tenets of Polkadot and the capital efficiency that RAMP DEFI is building would be a core piece to enable further evolution of open finance and Defi within the blockchain space. 
 
 We see some projects who seek to solve this similar issue, one such example is Makerdao where ETH is used as collateral to extract additional value from the asset and Kava which uses a wrapped solution. There are however, drawbacks as Makerdao and Kava are mainly only on Ethereum blockchain and have not ventured into cross blockchain flow of value.
 
-#### To solve this we intend to build holistically
+### To solve this we intend to build holistically
 
 With multiple components already built by RAMP DEFI on other blockchains, we are well poised to bring over massive value from other blockchains into the Polkadot eco-system. By building up the rStake and rMint port on polkadot, this provides a multi-pronged benefit of capital efficiency from staked assets on Polkadot and allow for the inflow of value capital from other blockchains.
 
@@ -161,20 +163,22 @@ Community engagement by running a range of incentivised testnets to get more fee
 ## Future Plans
 Future Developments will focus on the following:
 
-Incentive programs and multi-pronged collaboration for alliance partners
+Incentive programs and multi-level collaboration for alliance partners
 Bug bounties
-Community developer grants to develop new products under the RAMP DEFI Eco-system
+Community developer grants to develop new products and derivative structures under the RAMP DEFI Eco-system
 
 
 ## Additional Information :heavy_plus_sign: 
 Any additional information that you think is relevant to this application that hasn't already been included.
 
-* **What work has been done so far?** We've live with 2 RAMP Vaults (TVL 2.8 Mil USDT at time of writing) and 2 rStake across 2 major blockchains (IOST and TomoChain). Intergrated Chainlink for price feed and have accomplished industry first cross-chain stake farming. 
+* **What work has been done so far?** 
+We've live with 2 RAMP Vaults (TVL 2.6 Mil USDT at time of writing) and 2 rStake across 2 major blockchains (IOST and TomoChain) with integrations across existing lego pieces, Chainlink for price feed and VRF and have accomplished industry first cross-chain stake farming. 
 Integrated with major partners such as Solana, Elrond, IOST, NULs, Tomochain, Injective, Moonstake & Crust.
 
 * **Are there are any teams who have already contributed (financially) to the project?** Our expenses have been covered thus far via investments from world class investors who took part in our private sale round such as Alameda Research, Mechanism Capital, Arrington XRP, Parafi Capital, among others. We have further investment interest for follow-on investment should the need arise between the use of this grant and our next source of funding, whether that be the General Grants program or another VC-led investment.
 
-* **Have you applied for other grants so far?** Yes.
+* **Have you applied for other grants so far?** 
+Yes.
 
 
 
