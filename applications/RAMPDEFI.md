@@ -22,24 +22,21 @@ We intend for RAMP DEFI to run on its own Parachain on the Polkadot network. If 
 
 In order to fulfil RAMP DEFI's vision of unlocking liquid capital for frozen assets, it is imperative to establish a robust network of partners and a strong community who aligns with this vision. We strongly believe that the Polkadot eco-system and community is well suited as a major component of RAMP DEFI's vision. 
 
-Please provide the following:
-  * A brief description of the project.
-  RAMP DEFI unlocks liquid capital from staked assets.
-  * An indication of how you will integrate this project into Substrate / Polkadot / Kusama.
-  - rStake on Polkadot and  collatoralization of Polkadot into Native DOTUSD
-  - launching Polkadot versions of rUSD and RAMP
-  * An indication of why your team is interested in creating this project.
-We're solving this problem to unlock the liquidity across chains.
+
 
 ### Project Details 
-Details to be edited
+
+Overview of RAMP System built on Polkadot:
 ![](https://rampdefi.com/assets/DOT-Eco-system.jpg)
 
-We expect the teams to already have a solid idea about the project's expected final state.
 
-Therefore, we ask the teams to submit (where relevant):
-* Mockups/designs of any UI components: 
+
+Live UI designs:
 https://app.rampdefi.com
+
+Live rStake system:
+https://app.rampdefi.com/#/stake
+
 ![](https://rampdefi.com/assets/app_dashboard_front.png)
 ![](https://rampdefi.com/assets/app_dashboard.png)
 ![](https://rampdefi.com/assets/app_dashboard_stake.png)
@@ -49,11 +46,36 @@ https://app.rampdefi.com
 * Documentation of core components, protocols, architecture etc. to be deployed
 
 rStake is an aggregator of staking nodes on the participating native blockchains, to earn staking rewards.
+-Staking/Unstaking of DOT
+-wDOT
 
-rMint takes in non-ERC20 digital assets as collateral and mints rUSD against this collateral with a safe liquidation buffer. 
+RAMP DEFI uses a “Collateralization Ratio” system to ensure that the rMinted DOTUSD/rUSD is always fully collateralized.
+
+The “Minimum Collateralization Ratio (MCR)” for staked digital assets on each blockchain starts at a default 300%. This means that $300 worth of Token X can at most, mint $100 worth of DOTUSD/rUSD. The user may choose to issue at a higher Collateralization Ratio if a larger buffer is preferred (e.g. 400% collateralization: stake $200 of Token X to issue $50 of rUSD).
+
+![](https://rampdefi.com/assets/rDollar-Collate.png)
+
+The collateralization ratio at which liquidation is triggered, called the “Liquidation Ratio (LR)”, starts at a default 120% for each blockchain.
+
+![](https://rampdefi.com/assets/Liquidation.png)
+
+The Collateralization Ratio at which a re-collateralization request is triggered (“Re-Collateralization Ratio”) is the midpoint between the Minimum Collateralization Ratio and the Liquidation Ratio.
+![](https://rampdefi.com/assets/recollateralization.png)
+
+In the event that a user receives a re-collateralization request, the user simply needs to send more Token X into the native staking contract to issue more Wrapped Token X and re-collateralize the position back to the MCR.
+
+In the event that the Liquidation Ratio is triggered, the users’ tokens are considered “sold” to rPool, the universal liquidity pool that underpinned the RAMP ecosystem 
+. 
+rPool liquidates these tokens on exchanges and deposit the liquidated value into rPool. At the same time, rPool uses the existing liquidity within the pool to repurchase the same amount of rUSD minted by the user from the open market. 
+
+The difference in value between the liquidated assets and the repurchased rUSD accrue into rPool, to be distributed to RAMP token holders during the weekly value distribution.
+
+-Collateralization
+-rMint of DOTUSD
+-rMint of rUSD pegging DOTUSD and rUSD 1:1
 
 
-* PoC/MVP or other relevant prior work or research on the topic: https://app.rampdefi.com/#/stake
+
 
 ### Ecosystem Fit 
 Cross-chain functionality is one of the core tenets of Polkadot and the capital efficiency that RAMP DEFI is building would be a core piece to enable further evolution of open finance and Defi within the blockchain space. 
@@ -177,6 +199,19 @@ Integrated with major partners such as Solana, Elrond, IOST, NULs, Tomochain, In
 > This document is referenced in the terms and conditions and therefore needs to contain all the required information. Don't remove any of the mandatory parts presented in bold letters or as headlines! See the [Open Grants Program Process](https://github.com/w3f/Open-Grants-Program/blob/master/README_2.md) on how to submit a proposal.
 
 *The above combination of your GitHub account submitting the application and payment address will be your unique identifier during the program. Please keep them safe.*
+
+We expect the teams to already have a solid idea about the project's expected final state.
+
+Therefore, we ask the teams to submit (where relevant):
+
+Please provide the following:
+  * A brief description of the project.
+  RAMP DEFI unlocks liquid capital from staked assets.
+  * An indication of how you will integrate this project into Substrate / Polkadot / Kusama.
+  - rStake on Polkadot and  collatoralization of Polkadot into Native DOTUSD
+  - launching Polkadot versions of rUSD and RAMP
+  * An indication of why your team is interested in creating this project.
+We're solving this problem to unlock the liquidity across chains.
 
 
 ## Project Overview :page_facing_up: 
