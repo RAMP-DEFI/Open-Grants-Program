@@ -5,7 +5,7 @@
 
 * **Project Name:** RAMP DEFI
 * **Team Name:** RAMP DEFI
-* **Payment Address:** 1DQNr9EyYmoS5hbwRzQkfNrw5DS247cpF8
+* **BTC Payment Address:** 1DQNr9EyYmoS5hbwRzQkfNrw5DS247cpF8
 
 ## Project Overview
 
@@ -131,14 +131,14 @@ Senior Blockchain (Cross-chain) engineers [TBA]
 
 ### Overview
 * **Total Estimated Duration:** 3 Months / POC
-* **Full-time equivalent (FTE):**  20.25
-* **Total Costs:** 1.55 BTC
+* **Full-time equivalent (FTE):**  2.75
+* **Total Costs:** 1.25 BTC
 
 ### Milestone 1 Summary
 
 | Number | Deliverable | Specification |
 | ------------- | ------------- | ------------- |
-| 0a. | License | Apache 2.0 / MIT / Unlicense |
+| 0a. | License | MIT |
 | 0b. | Documentation | We will provide both inline documentation of the code and a full tutorial that explains how to interact and communicate with the testnet protocol |
 | 0c. | Testing Guide | The code will have unit-test coverage (min. 90%) to ensure functionality and robustness. In the guide we will describe how to run these tests | 
 | 0d. | Medium Article | We will publish a medium article that announces all deliveries and a step by step tutorial to the community once evaluation is passed.
