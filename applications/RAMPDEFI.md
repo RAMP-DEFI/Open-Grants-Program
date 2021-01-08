@@ -22,6 +22,15 @@ We intend for RAMP DEFI to run on its own Parachain on the Polkadot network. If 
 
 In order to fulfil RAMP DEFI's vision of unlocking liquid capital for frozen assets, it is imperative to establish a robust network of partners and a strong community who aligns with this vision. We strongly believe that the Polkadot eco-system and community is well suited as a major component of RAMP DEFI's vision. 
 
+Polka-Keeper protocol
+- Substrate-based (Parachain or Parathread deployment)
+- Native token issued, with DAO governance
+- Keepers can be deployed as SmartContracts by anyone (WASM first, EVM later )
+- Connectivity to other parachains and bridges natively supported and added
+- Access to off-chain workers (Triggering of Smart Contracts)
+- Deposit to KeeperPool and collaborate with Underwriters, Yielders
+- Proof-of-concept: Moonbeam/Acala/Reef
+
 
 
 ## Project Details 
