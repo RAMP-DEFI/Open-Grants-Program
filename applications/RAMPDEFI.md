@@ -16,7 +16,14 @@ RAMP DEFI was created to solve problems that we as users faced with locked stake
 
 The addressable market for staked assets today is upwards of USD25bn, and as the industry-leading solution, RAMP DEFI has a vision of unlocking USD1bn or more in "Total Value Unlocked (TVU)" for users by end 2021.
 
-The RAMP vaults and rStake has launched with major blockchains IOST and Tomochain and has total first phase TVL of 2.8 Million USDT worth of assets.
+The RAMP vaults and rStake have launched with major blockchains IOST, Tomochain and Tezos has total first phase TVL of 2.8 Million USDT worth of assets.
+
+rMint is the collateralization of these staked assets and in turn enable for liquid capital to be extracted. This is done by an over-collateralization process which mitigates risks on a few levels.
+1) Over-collateralization of assets give the buffer required in cases of wide volatility
+2) Liquidation triggers are placed at adequate levels to ensure that risk is not transferred to the overall RAMP eco-system
+3) On and Off-chain Keepers that bite triggered stake assets
+
+As a natural generation of 
 
 We intend for RAMP DEFI to run on its own Parachain on the Polkadot network. If the bond cannot be funded, the protocol will run on Parathreads or possibly as a series of smart contracts and API integrations. Our initial testnet and protocol configuration will be built on Kusama and ported onto Polkadot for the mainnet launch.
 
