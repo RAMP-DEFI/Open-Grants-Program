@@ -1,5 +1,5 @@
-# RAMPDEFI Grant Proposal
-![](https://rampdefi.com/assets/Rampdefilogoblack200.png)
+# Polkakeeper Grant Proposal
+![](https://rampdefi.com/polkakeeper/digitalassets/polkakeeperlogo.png)
 
 # Open Grant Proposal
 
@@ -10,15 +10,8 @@
 ## Project Overview
 
 **Overview**
-RAMP DEFI is a global decentralized finance solution that focuses on unlocking liquid capital from staked digital assets. Using the RAMP solution, users with staked assets can continue to receive staking rewards, retain capital appreciation potential on their staked portfolio, and unlock liquid capital to invest in new opportunities at the same time.
 
-RAMP DEFI was created to solve problems that we as users faced with locked staked assets. As with traditional markets, capital should be free to flow even as yield is being generated in order to maximise capital efficiency.
-
-The addressable market for staked assets today is upwards of USD25bn, and as the industry-leading solution, RAMP DEFI has a vision of unlocking USD1bn or more in "Total Value Unlocked (TVU)" for users by end 2021.
-
-The RAMP vaults and rStake have launched with major blockchains IOST, Tomochain and Tezos has total first phase TVL of 2.8 Million USDT worth of assets.
-
-rMint is the collateralization of these staked assets and in turn enable for liquid capital to be extracted. This is done by an over-collateralization process which mitigates risks on a few levels.
+Collateralization of staked assets and in turn enable for liquid capital to be extracted. This is done by an over-collateralization process which mitigates risks on a few levels.
 1) Over-collateralization of assets give the buffer required in cases of wide volatility
 2) Liquidation triggers are placed at adequate levels to ensure that risk is not transferred to the overall RAMP eco-system
 3) On and Off-chain Keepers that bite triggered stake assets
