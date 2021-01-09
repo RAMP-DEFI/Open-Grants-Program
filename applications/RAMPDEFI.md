@@ -18,28 +18,7 @@ The addressable market for staked assets today is upwards of USD25bn, and as the
 
 The RAMP vaults and rStake have launched with major blockchains IOST, Tomochain and Tezos has total first phase TVL of 2.8 Million USDT worth of assets.
 
-rMint is the collateralization of these staked assets and in turn enable for liquid capital to be extracted. This is done by an over-collateralization process which mitigates risks on a few levels.
-1) Over-collateralization of assets give the buffer required in cases of wide volatility
-2) Liquidation triggers are placed at adequate levels to ensure that risk is not transferred to the overall RAMP eco-system
-3) On and Off-chain Keepers that bite triggered stake assets
-
-As a natural component of the RAMP eco-system, the liquidation framework takes high priority in order of importance. Whilst developing such functions on other major blockchains, it became intuitive that such a keeper system is both required and well suited within Polkadot. Hence, POLKAKEEPER would be the native Keeper extension of RAMP DEFI built on Polkadot.
-
-We intend for PolkaKeeper to run our own nodes on its own Parachain on the Polkadot network. If the bond cannot be funded, the protocol will run on Parathreads or possibly as a series of smart contracts and API integrations. Our initial testnet and protocol configuration will be built on Kusama and ported onto Polkadot for the mainnet launch.
-
-Top level: Cross-chain Polka-keeper
-Mid level: Polkadot-Kusama Polka-keeper
-Grant level: Polkadot only Polka-keeper with single additional project framework integration
-
-Polka-Keeper protocol
-- Substrate-based (Parachain or Parathread deployment)
-- Native token issued, with DAO governance
-- Keepers can be deployed as SmartContracts by anyone (WASM first, EVM later )
-- Connectivity to other parachains and bridges natively supported and added
-- Access to off-chain workers (Triggering of Smart Contracts)
-- Deposit to KeeperPool and collaborate with Underwriters, Yielders
-- Proof-of-concept: Moonbeam/Acala/Reef
-
+We intend for RAMPDEFI to run our own nodes on its own Parachain on the Polkadot network. If the bond cannot be funded, the protocol will run on Parathreads or possibly as a series of smart contracts and API integrations. Our initial testnet and protocol configuration will be built on Kusama and ported onto Polkadot for the mainnet launch.
 
 
 ## Project Details 
