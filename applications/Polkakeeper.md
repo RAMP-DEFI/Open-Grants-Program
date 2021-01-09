@@ -3,7 +3,7 @@
 
 # Open Grant Proposal
 
-* **Project Name:** RAMP DEFI
+* **Project Name:** Polkakeeper
 * **Team Name:** RAMP DEFI
 * **BTC Payment Address:** 1DQNr9EyYmoS5hbwRzQkfNrw5DS247cpF8
 
