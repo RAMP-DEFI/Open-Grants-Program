@@ -135,6 +135,21 @@ Senior Blockchain (Cross-chain) engineers [TBA]
 
 ### Team Code Repos
 * https://github.com/RAMP-DEFI
+* https://github.com/RAMP-DEFI/RAMP_IOST
+* https://github.com/RAMP-DEFI/RAMP_TOMOCHAIN
+* https://github.com/RAMP-DEFI/RAMP_VERSION_TEZOS
+* https://github.com/RAMP-DEFI/RAMP_REWARDS_MANAGER
+* https://github.com/RAMP-DEFI/RAMP_API
+* https://github.com/RAMP-DEFI/RAMP_WEB_MAIN
+* https://github.com/RAMP-DEFI/RAMP_wRAMP
+* https://github.com/RAMP-DEFI/RAMP_IOSTSWAP
+* https://github.com/RAMP-DEFI/RAMP_Public_Sale
+* https://github.com/RAMP-DEFI/RAMP_ERC_CLAIM_DAPP
+* https://github.com/RAMP-DEFI/RAMP_SECURITY_AUDITS_REWARDS
+* https://github.com/RAMP-DEFI/RAMP_SECURITY_AUDITS_IOST
+* https://github.com/RAMP-DEFI/RAMP_SECURITY_AUDITS_TOMOCHAIN
+
+
 
 ### Team LinkedIn Profiles
 * **Lawrence Lim** https://www.linkedin.com/in/lawrencelimhz/
