@@ -25,7 +25,7 @@ rMint is the collateralization of these staked assets and in turn enable for liq
 
 As a natural component of the RAMP eco-system, the liquidation framework takes high priority in order of importance. Whilst developing such functions on other major blockchains, it became intuitive that such a keeper system is both required and well suited within Polkadot. Hence, POLKAKEEPER would be the native Keeper extension of RAMP DEFI built on Polkadot.
 
-We intend for PolkaKeeper to run on its own Parachain on the Polkadot network to . If the bond cannot be funded, the protocol will run on Parathreads or possibly as a series of smart contracts and API integrations. Our initial testnet and protocol configuration will be built on Kusama and ported onto Polkadot for the mainnet launch.
+We intend for PolkaKeeper to run our own nodes on its own Parachain on the Polkadot network. If the bond cannot be funded, the protocol will run on Parathreads or possibly as a series of smart contracts and API integrations. Our initial testnet and protocol configuration will be built on Kusama and ported onto Polkadot for the mainnet launch.
 
 Top level: Cross-chain Polka-keeper
 Mid level: Polkadot-Kusama Polka-keeper
