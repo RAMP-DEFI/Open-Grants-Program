@@ -39,6 +39,47 @@ A description of how Polkakeeper works, by walking through a typical scenario:
 * The Finder (or an automated task) calls the PolkaKeeper chain to execute the chosen Keeper with the found parameters
 * After all the actions are completed, results will be paid out to Finder and Backers.
 
+# Components
+* Native Token
+  * A native token shall be issued to power the Polkakeeper ecosystem, rewarding developers, users and node operators who contribute to the growth and continued development of Polkakeeper.
+  * Implementation: The built-in Currency trait from FRAME.
+
+* Account
+  * Accounts live on the Polkakeeper network, and identify the user. Depending on the security level needed to be Strategists or Finders, additional verification can be added
+  * Implementation: The built-in account system from FRAME.
+
+* Node
+  * Polkakeeper will run several Collator and Full nodes to ensure functioning and reliability of the network, and to enable the features added by the off chain workers. 
+  * The parachain will be implemented using  Substrate+Cumulus, initially for local development and later on the Rococo testnet. 
+  * The nodes will run the Polkakeeper Runtime, which, among other features, includes the Contracts Pallet, enabling deployment of the KeeperManager and Keeper contracts. 
+  * Eventually, Nodes will be set up in such a way that a direct connection with other Parachains is possible, without going through the Relay Network.
+
+* KeeperManager (Runtime)
+  * Extrinsic that enables viewing/adding/removing/changing/disabling Keepers by accounts in the chain.
+  * Implementation: A Smart Contract that can be transacted with through the UI and programmatically. 
+  * The Polkakeeper Runtime makes available Chain Extensions that allow the smart contracts to utilize relevant parts of the Polkadot ecosystem and connected parachains, bridges and off chain functionality.
+  * Connectivity to other parachains is implemented with XCMP using the Xcm::Transact type (once available)
+
+* Keeper (Smart Contract)
+  * Logic that is designed to be applied on specific targets. For example, a function that executes a specific trade on another parachain such as Acala. The logic is predefined, but the input (the tokens and amounts) are parameterized.
+  * Implemented as Smart Contracts to be deployed to the chain by the users. These still have to be registered in the KeeperManager.
+
+* Strategist
+  * A user who designs new Keepers (strategies), authors, deploys the Smart Contracts and registers these in the KeeperManager.
+
+* Finder
+  * A user who finds opportunities to execute a Keeper strategy against. The finding is done off-chain due to the required computing/network resources needed. The outcome is a transaction that invokes a Keeper with specific Parameters.
+
+* Backer
+  * A user who provides liquidity to the Vault. In exchange for this, executing Keepers can be done with larger leverage, and depending on the configuration set by the Strategist, profits are shared.
+
+* Vaults
+  * (Shared) Keepers can utilize a pool of user funds to enter profit opportunities. Profits may be shared with the pool participants.
+  * The vault is implemented as a Smart Contract or directly in the Runtime, and will be available programmatically or through the User Interface. Functionality includes: deposit, withdrawal.
+
+
+
+
 
 Live UI designs:
 https://app.rampdefi.com
