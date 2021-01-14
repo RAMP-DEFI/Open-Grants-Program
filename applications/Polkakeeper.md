@@ -108,6 +108,52 @@ A description of how Polkakeeper works, by walking through a typical scenario:
     * Cross-Parachain functionality
     * Offchain Worker functionality
 
+# Backend Development
+As of now we don’t expect to do direct backend development. The functionality on the nodes should be sufficient. That said, we may implement example Finder tasks on a NodeJS backend.
+Deployment of the chain during development will use Docker and AWS. We expect to use local deployments and the Rococo Testnet.
+
+# UI Development
+We will implement the frontend in React + Javascript + Polkadot.js. Since there is no dynamic backend, the hosting of the built webapp will probably be done on S3 + Cloudfront or a comparable configuration.
+
+## Team
+# Team members
+**Lawrence Lim**
+* Project Lead for RAMP DEFI, a leading DeFi protocol providing cross-chain liquid staking solutions.
+* Head of International Growth at IOST, a layer 1 blockchain protocol.
+* Global Sales at TradeGecko, an inventory management software company acquired by Intuit.
+* Corporate finance and private banking in global financial institutions including JP Morgan, BNP Paribas and KPMG.
+* LinkedIn: https://www.linkedin.com/in/lawrencelimhz/
+
+**Loh Zheng Rong**
+* Global Marketing Lead for RAMP DEFI overseeing overall project marketing execution and team operations.
+* Investments and blockchain advisory at Merkle Ventures.
+* COO of Toucan, Payments aggregator platform in S.E.A region.
+* LinkedIn: https://www.linkedin.com/in/lohzhengrong/
+
+**Jade Wang**
+* Greater China Marketing Lead for RAMP DEFI, focusing on China market growth and development.
+* International Marketing Manager for IOST, a layer 1 blockchain protocol with headquarters in Beijing.
+
+**Caspar Oostendorp**
+* Technical Lead for RAMP DEFI overseeing technical R&D, multi-chain protocol deployments and multi-chain node operations.
+* Co-founder of BlockDevs Asia, a community of DLT/Blockchain tech devs. 
+* Co-founder of Oost & Voort, specializing in cloud and blockchain solutions.
+* LinkedIn: https://www.linkedin.com/in/caspar-oostendorp-7bb82873/
+
+**Anu Nair**
+* Blockchain Lead for RAMP DEFI overseeing product R&D, multi-chain protocol integrations and smart contracts development.
+* Senior blockchain developer at Propine, a digital asset custodian regulated by the Monetary Authority of Singapore.
+* Senior software engineer in leading software companies including Oracle and Manthan.
+* LinkedIn: https://www.linkedin.com/in/anu-b-nair-0551763a/
+
+**Jeannette Zhang**
+* Operations Lead overseeing business operations and finance.
+* Strategy and Finance Manager at Hashed.Labs, a blockchain incubator in partnership with the Singapore government.
+* Senior Auditor at Deloitte overseeing audit engagements.
+* LinkedIn: https://www.linkedin.com/in/jeanettez/
+
+
+
 
 
 Live UI designs:
