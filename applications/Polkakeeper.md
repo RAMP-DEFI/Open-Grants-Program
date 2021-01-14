@@ -159,20 +159,17 @@ RAMP is already building cross-chain keeper solutions, and its suite of DeFi pro
 
 App link: https://app.rampdefi.com/#/
  
-RAMP Vaults TVL: 9.7 Million USDT value
+RAMP Vaults TVL: 15.4 Million USDT value
 https://app.rampdefi.com/#/vault 
 
-
+![](https://rampdefi.com/polkakeeper/digitalassets/vaults.png)
 
 RAMP DEFI rStake: Cross-chain integrated stake farming with native assets
 https://app.rampdefi.com/#/stake/iost 
 https://app.rampdefi.com/#/stake/tomo 
 https://app.rampdefi.com/#/stake/tezos 
 
-
-
-
-
+![](https://rampdefi.com/polkakeeper/digitalassets/rstake.png)
 
 **Integration Partners for RAMP DEFI include:**
 IOST | TOMOCHAIN | SOLANA | ELROND | NULS | MOONSTAKE | INJECTIVE PROTOCOL | CRUST | STONE FINANCE | ALLIANCE BLOCK
@@ -215,6 +212,60 @@ Team Code Repos
 * **Total Estimated Duration:** 3 Months / POC
 * **Full-time equivalent (FTE):**  2.75
 * **Total Costs:** 0.8 BTC
+
+### Technical Milestones
+
+| Number | Deliverable | Specification |
+| ------------- | ------------- | ------------- |
+| 0a. | License | MIT |
+| 0b. | Documentation | We will provide both inline documentation of the code and a full tutorial that explains how to interact and communicate with the testnet protocol |
+| 0c. | Testing Guide | The code will have unit-test coverage (min. 90%) to ensure functionality and robustness. In the guide we will describe how to run these tests | 
+| 0d. | Medium Article | We will publish a medium article that announces all deliveries and a step by step tutorial to the community once evaluation is passed.
+| 1. | Testing | We will conduct testing of the developed functionalities on Rococo testnet. |  
+| 2. | Substrate: NativeCurrency | Polkakeeper native token implementation and tools |  
+| 3. | Substrate: VaultManager | Functionality regarding shared deposits, funds |  
+| 4. | Substrate: Accounts | Account related code  |  
+| 5. | Substrate: PolkadotConnector | Code related to bridging with Polkadot |
+| 6. | Substrate: RpcEndpoints | External endpoints for Finders and other consumers  |
+| 6. | Substrate: Keepers | Basic Keeper logic and custom smart contract base.  |
+| 7. | Repository | Repository including a README that describes the milestone and explains how to run, test and contribute |
+| 8. | Docker | A docker container that will also run on CI to test the deliverables of the milestone |
+
+
+## Marketing and Community Engagement
+We will write articles and grow marketing awareness around Polkakeeper’s development and implementation on Polkadot. As RAMP is a leading DeFi project, there is a ready community of DeFi users who can consume this content, and a marketing network for content distribution. They include, but are not limited to:
+* Medium Articles on the product design, integration and tutorials for users.
+* Twitter posts covering development and other announcements.
+* Community engagement by running a range of incentivised testnets to get more feedback from the existing end-users to improve the Polkakeeper solution.
+* On-boarding and seeding the Polkakeeper community via the RAMP community.
+
+## Future Plans
+Future Developments will focus on the following:
+* Collaboration with DeFi partners on Polkadot 
+* Bug bounties to enhance security for users
+* Community developer grants and incentive programs for Strategists and Finders to develop Polkakeeper and scale up network value
+
+## Additional Information
+
+**What work has been done so far?** 
+Base layer groundwork has been completed with substrate infrastructure planning. Subsequent bottom up construction of the solution would be developed in parts to ensure each running functionality performs as intended.
+
+**Are there any teams who have already contributed (financially) to the project?** 
+Our R&D expenses have been covered thus far via RAMP DEFI with world class investors who took part in RAMP DEFI’s private sale round such as Alameda Research, Mechanism Capital, Arrington XRP, Parafi Capital, among others. 
+
+We have further investment interest for follow-on investment should the need arise between the use of this grant and our next source of funding, whether that be the General Grants program or another VC-led investment.
+
+**Have you applied for other grants so far?** 
+No.
+
+**How can I get involved?** 
+Anyone looking to get involved with RAMP DEFI is welcomed to reach out to us at: team@polkakeeper.com
+
+
+We intend for Polkakeeper to operate on its own parachain on the Polkadot network, providing developers the foundational protocol framework to write cross-chain keeper strategies and asset allocation optimizations. If the parachain bond cannot be funded, the protocol is expected to run on a parathread, with the third possible alternative being an independent substrate chain bridged to Polkadot. Our initial testnet and protocol configuration will be built on Kusama and migrated to Polkadot for the mainnet launch.
+
+
+
 
 
 Live UI designs:
