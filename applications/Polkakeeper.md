@@ -152,8 +152,69 @@ We will implement the frontend in React + Javascript + Polkadot.js. Since there 
 * Senior Auditor at Deloitte overseeing audit engagements.
 * LinkedIn: https://www.linkedin.com/in/jeanettez/
 
+# Team's Experience
+Polkakeeper is conceptualized by RAMP DEFI, a leading DeFi project specializing in cross-chain staked liquidity solutions. The team members collectively have commercial experiences in scaling up decentralized projects and node operations, and have deep technical expertise in blockchain protocol developments in various programming languages including Solidity, Javascript and Python.
+RAMP helps users unlock the value of non-ERC20 assets by collateralizing them into fungible liquidity and bridging this liquidity into Ethereum. As of today, RAMP had already created integrations across Ethereum, IOST, Tomochain and Tezos, with more integrations under active development. 
+RAMP is already building cross-chain keeper solutions, and its suite of DeFi products for staked liquidity and value assurance can similarly be customized and launched for the Polkadot network.
+
+App link: https://app.rampdefi.com/#/
+ 
+RAMP Vaults TVL: 9.7 Million USDT value
+https://app.rampdefi.com/#/vault 
 
 
+
+RAMP DEFI rStake: Cross-chain integrated stake farming with native assets
+https://app.rampdefi.com/#/stake/iost 
+https://app.rampdefi.com/#/stake/tomo 
+https://app.rampdefi.com/#/stake/tezos 
+
+
+
+
+
+
+**Integration Partners for RAMP DEFI include:**
+IOST | TOMOCHAIN | SOLANA | ELROND | NULS | MOONSTAKE | INJECTIVE PROTOCOL | CRUST | STONE FINANCE | ALLIANCE BLOCK
+
+Team Code Repos
+
+### Team Code Repos
+* https://github.com/RAMP-DEFI
+* https://github.com/RAMP-DEFI/RAMP_IOST
+* https://github.com/RAMP-DEFI/RAMP_TOMOCHAIN
+* https://github.com/RAMP-DEFI/RAMP_VERSION_TEZOS
+* https://github.com/RAMP-DEFI/RAMP_REWARDS_MANAGER
+* https://github.com/RAMP-DEFI/RAMP_API
+* https://github.com/RAMP-DEFI/RAMP_WEB_MAIN
+* https://github.com/RAMP-DEFI/RAMP_wRAMP
+* https://github.com/RAMP-DEFI/RAMP_IOSTSWAP
+* https://github.com/RAMP-DEFI/RAMP_Public_Sale
+* https://github.com/RAMP-DEFI/RAMP_ERC_CLAIM_DAPP
+* https://github.com/RAMP-DEFI/RAMP_SECURITY_AUDITS_REWARDS
+* https://github.com/RAMP-DEFI/RAMP_SECURITY_AUDITS_IOST
+* https://github.com/RAMP-DEFI/RAMP_SECURITY_AUDITS_TOMOCHAIN
+
+# Contact
+* Contact Name: LOH ZHENG RONG
+* Contact Email: zr@rampdefi.com
+* Website: https://polkakeeper.com
+
+# Legal Structure
+* Registered Address: 14 ROBINSON ROAD #08-01A FAR EAST FINANCE BUILDING S(048545)
+* Registered Legal Entity: Ramp Protocol Pte Ltd
+
+# Ecosystem Fit
+**Comparable projects**
+* Keep3r.network: https://keep3r.network/ (Ethereum)
+* KeeperDao: https://keeperdao.com/ (Ethereum)
+* Web3 Guardian : https://github.com/open-web3-stack/guardian (Ethereum)
+
+# Milestones:
+### Overview
+* **Total Estimated Duration:** 3 Months / POC
+* **Full-time equivalent (FTE):**  2.75
+* **Total Costs:** 0.8 BTC
 
 
 Live UI designs:
