@@ -7,38 +7,38 @@
 * **Team Name:** RAMP DEFI
 * **BTC Payment Address:** 1DQNr9EyYmoS5hbwRzQkfNrw5DS247cpF8
 
-## Project Overview
+## Polkakeeper - A Community-Led Value Assurance Protocol Empowering DeFi Markets Efficiency on Polkadot
 
-**Overview**
 
-Collateralization of staked assets and in turn enable for liquid capital to be extracted. This is done by an over-collateralization process which mitigates risks on a few levels.
-1) Over-collateralization of assets give the buffer required in cases of wide volatility
-2) Liquidation triggers are placed at adequate levels to ensure that risk is not transferred to the overall RAMP eco-system
-3) On and Off-chain Keepers that bite triggered stake assets
+**Project Overview**
 
-As a natural component of the RAMP eco-system, the liquidation framework takes high priority in order of importance. Whilst developing such functions on other major blockchains, it became intuitive that such a keeper system is both required and well suited within Polkadot. Hence, POLKAKEEPER would be the native Keeper extension of RAMP DEFI built on Polkadot.
+Polkakeeper is a decentralized value assurance underwriter that empowers community creation of keeper strategies on the Polkadot network and bridged chains. On Polkakeeper, Strategists create Keepers (smart contracts), which can be executed by Finders who actively search for keeper execution opportunities. Backers are users who deposit their funds or assets into Vaults to back the deployment of keeper strategies. 
 
-We intend for PolkaKeeper to run our own nodes on its own Parachain on the Polkadot network. If the bond cannot be funded, the protocol will run on Parathreads or possibly as a series of smart contracts and API integrations. Our initial testnet and protocol configuration will be built on Kusama and ported onto Polkadot for the mainnet launch.
+Keepers are automated on-chain value assurance strategies that increase overall DeFi market efficiencies, such as liquidating undercollateralized positions in lending / margin trading protocols, or smoothing asset prices through arbitrage strategies across exchanges. Uniquely, Keepers may deploy assets across chains, which give strategies new dimensions in identifying profit opportunities. A simple example of a Keeper strategy can be for Finders to monitor asset prices across multiple DeFi protocols such as Acala, Polkadex etc, and deploying assets from Vaults to close off pricing differences with no risks to the principal.
 
-Top level: Cross-chain Polka-keeper
-Mid level: Polkadot-Kusama Polka-keeper
-Grant level: Polkadot only Polka-keeper with single additional project framework integration
+Upon successful Keeper execution, the protocol takes 3.5% of the profits, and the remaining is distributed among the Strategist, Finder and Vaults. Where funds or assets in Vaults are not utilized, they are deployed to lending protocols and optimized for the best yields across chains.
 
-Polka-Keeper protocol
-- Substrate-based (Parachain or Parathread deployment)
-- Native token issued, with DAO governance
-- Keepers can be deployed as SmartContracts by anyone (WASM first, EVM later )
-- Connectivity to other parachains and bridges natively supported and added
-- Access to off-chain workers (Triggering of Smart Contracts)
-- Deposit to KeeperPool and collaborate with Underwriters, Yielders
-- Proof-of-concept: Moonbeam/Acala/Reef
+The vision for Polkakeeper is to become the leading value assurance protocol and through DAO governance, organizes the Polkadot developer and user communities towards optimizing and maintaining high level of market efficiencies for Polkadot DeFi protocols. Polkakeeper is designed to empower community collaboration for Strategists, Finders and users to act collectively, rather than individually.
 
+Polkakeeper is designed as an independent, composable Substrate component that can be seamlessly integrated and deployed across Polkadot’s multi-chain network.
 
 
 ## Project Details 
 
-Overview of RAMP System built on Polkadot:
-![](https://rampdefi.com/assets/PolkadotRAMP.jpg)
+Overview Diagram of how Polkakeeper works
+![](https://rampdefi.com/polkakeeper/digitalassets/technical_diagram.jpg)
+
+
+# Sample Scenario
+A description of how Polkakeeper works, by walking through a typical scenario:
+* Polkakeeper goes live, and publishes its SmartContract API
+* A user (Strategist) writes a Smart Contract that implements a certain trade or action and deploys/registers it.
+* Another user (Finder) finds a newly registered SmartContract on the Polkakeeper app and makes a NodeJS app that scans the relevant (para) chain for opportunities to apply the Keeper Strategy on.
+* The Finder may choose to fund each execution of the Keeper herself, or leverage with extra funding from the Vault. In this case dividends will be paid on the results of the execution.
+* Meanwhile, yet another user who is not technically savvy but wants to participate, deposits in the Vault as a Backer. This makes him eligible for dividends on results of the Keeper executions if the funds are used.
+* The Finder (or an automated task) calls the PolkaKeeper chain to execute the chosen Keeper with the found parameters
+* After all the actions are completed, results will be paid out to Finder and Backers.
+
 
 Live UI designs:
 https://app.rampdefi.com
