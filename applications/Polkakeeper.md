@@ -103,7 +103,6 @@ A description of how Polkakeeper works, by walking through a typical scenario:
     * Additionally, methods provided by the Contracts Pallet will be exposed as well. These allow for deployment and instantiation of the SmartContracts.
 * Keeper (SmartContract)
   * All the usual Ink! Functionality is available.
-  * We may enforce a 
   * Documented Chain Extensions from the Runtime
     * Cross-Parachain functionality
     * Offchain Worker functionality
@@ -115,8 +114,8 @@ Deployment of the chain during development will use Docker and AWS. We expect to
 # UI Development
 We will implement the frontend in React + Javascript + Polkadot.js. Since there is no dynamic backend, the hosting of the built webapp will probably be done on S3 + Cloudfront or a comparable configuration.
 
-## Team
-# Team members
+# Team
+## Team members
 **Lawrence Lim**
 * Project Lead for RAMP DEFI, a leading DeFi protocol providing cross-chain liquid staking solutions.
 * Head of International Growth at IOST, a layer 1 blockchain protocol.
@@ -165,13 +164,14 @@ https://app.rampdefi.com/#/vault
 ![](https://rampdefi.com/polkakeeper/digitalassets/vaults.png)
 
 RAMP DEFI rStake: Cross-chain integrated stake farming with native assets
-https://app.rampdefi.com/#/stake/iost 
-https://app.rampdefi.com/#/stake/tomo 
-https://app.rampdefi.com/#/stake/tezos 
+* https://app.rampdefi.com/#/stake/iost 
+* https://app.rampdefi.com/#/stake/tomo 
+* https://app.rampdefi.com/#/stake/tezos 
 
 ![](https://rampdefi.com/polkakeeper/digitalassets/rstake.png)
 
 **Integration Partners for RAMP DEFI include:**
+
 IOST | TOMOCHAIN | SOLANA | ELROND | NULS | MOONSTAKE | INJECTIVE PROTOCOL | CRUST | STONE FINANCE | ALLIANCE BLOCK
 
 Team Code Repos
