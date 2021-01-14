@@ -262,7 +262,3 @@ No.
 
 **How can I get involved?** 
 Anyone looking to get involved with RAMP DEFI is welcomed to reach out to us at: team@polkakeeper.com
-
-
-
-We intend for Polkakeeper to operate on its own parachain on the Polkadot network, providing developers the foundational protocol framework to write cross-chain keeper strategies and asset allocation optimizations. If the parachain bond cannot be funded, the protocol is expected to run on a parathread, with the third possible alternative being an independent substrate chain bridged to Polkadot. Our initial testnet and protocol configuration will be built on Kusama and migrated to Polkadot for the mainnet launch.
