@@ -174,7 +174,6 @@ RAMP DEFI rStake: Cross-chain integrated stake farming with native assets
 
 IOST | TOMOCHAIN | SOLANA | ELROND | NULS | MOONSTAKE | INJECTIVE PROTOCOL | CRUST | STONE FINANCE | ALLIANCE BLOCK
 
-Team Code Repos
 
 ### Team Code Repos
 * https://github.com/RAMP-DEFI
@@ -220,16 +219,16 @@ Team Code Repos
 | 0a. | License | MIT |
 | 0b. | Documentation | We will provide both inline documentation of the code and a full tutorial that explains how to interact and communicate with the testnet protocol |
 | 0c. | Testing Guide | The code will have unit-test coverage (min. 90%) to ensure functionality and robustness. In the guide we will describe how to run these tests | 
-| 0d. | Medium Article | We will publish a medium article that announces all deliveries and a step by step tutorial to the community once evaluation is passed.
-| 1. | Testing | We will conduct testing of the developed functionalities on Rococo testnet. |  
+| 0d. | Medium Article | We will publish a medium article that announces all deliveries and a step by step tutorial to the community once evaluation is passed
+| 1. | Testing | We will conduct testing of the developed functionalities on Rococo testnet |  
 | 2. | Substrate: NativeCurrency | Polkakeeper native token implementation and tools |  
 | 3. | Substrate: VaultManager | Functionality regarding shared deposits, funds |  
 | 4. | Substrate: Accounts | Account related code  |  
 | 5. | Substrate: PolkadotConnector | Code related to bridging with Polkadot |
 | 6. | Substrate: RpcEndpoints | External endpoints for Finders and other consumers  |
-| 6. | Substrate: Keepers | Basic Keeper logic and custom smart contract base.  |
-| 7. | Repository | Repository including a README that describes the milestone and explains how to run, test and contribute |
-| 8. | Docker | A docker container that will also run on CI to test the deliverables of the milestone |
+| 7. | Substrate: Keepers | Basic Keeper logic and custom smart contract base  |
+| 8. | Repository | Repository including a README that describes the milestone and explains how to run, test and contribute |
+| 9. | Docker | A docker container that will also run on CI to test the deliverables of the milestone |
 
 
 ## Marketing and Community Engagement
@@ -250,16 +249,20 @@ Future Developments will focus on the following:
 **What work has been done so far?** 
 Base layer groundwork has been completed with substrate infrastructure planning. Subsequent bottom up construction of the solution would be developed in parts to ensure each running functionality performs as intended.
 
+
 **Are there any teams who have already contributed (financially) to the project?** 
 Our R&D expenses have been covered thus far via RAMP DEFI with world class investors who took part in RAMP DEFI’s private sale round such as Alameda Research, Mechanism Capital, Arrington XRP, Parafi Capital, among others. 
 
 We have further investment interest for follow-on investment should the need arise between the use of this grant and our next source of funding, whether that be the General Grants program or another VC-led investment.
 
+
 **Have you applied for other grants so far?** 
 No.
 
+
 **How can I get involved?** 
 Anyone looking to get involved with RAMP DEFI is welcomed to reach out to us at: team@polkakeeper.com
+
 
 
 We intend for Polkakeeper to operate on its own parachain on the Polkadot network, providing developers the foundational protocol framework to write cross-chain keeper strategies and asset allocation optimizations. If the parachain bond cannot be funded, the protocol is expected to run on a parathread, with the third possible alternative being an independent substrate chain bridged to Polkadot. Our initial testnet and protocol configuration will be built on Kusama and migrated to Polkadot for the mainnet launch.
