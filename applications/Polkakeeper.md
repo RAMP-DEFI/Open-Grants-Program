@@ -79,34 +79,34 @@ A description of how Polkakeeper works, by walking through a typical scenario:
 
 # Runtime Modules
 * KeeperManager (Main runtime)
- * Events
-  * KeeperDeployed, KeeperRemoved, KeeperRun, KeeperDisabled, KeeperEnabled
-  * VaultDeposit, VaultWithdrawal
- * Storage
-  * Keepers (StorageDoubleMap)
-   * keeperOwners: (address => “owner” => address)
-   * keeperEnabled: (address => “enabled” => address)
-  * VaultBalances (StorageDoubleMap)
-   * Balance: (address => “tokenID” => number)
-  * Dividends (StorageDoubleMap)
-   * Dividend: (address => “tokenID” => number)
- * Public Methods
-  * registerKeeper(address)
-  * listKeepers() -> Vec<Keeper>
-  * removeKeeper(keeperAddress)
-  * runKeeper(address) -> CallResult
-  * disableKeeper(address)
-  * enableKeeper(address)
-  * claimDividend()
-  * Custom dispatchable extrinsics (for calling from Chain Extension in Keepers)
-   * Here we would implement predefined cross-parachain XCMP calls, dispatchable from inside the contract. For example executing a specific trade in Acala, for which all tokens and permissions are already in place.
-   * Additionally, methods provided by the Contracts Pallet will be exposed as well. These allow for deployment and instantiation of the SmartContracts.
+  * Events
+    * KeeperDeployed, KeeperRemoved, KeeperRun, KeeperDisabled, KeeperEnabled
+    * VaultDeposit, VaultWithdrawal
+  * Storage
+    * Keepers (StorageDoubleMap)
+      * keeperOwners: (address => “owner” => address)
+      * keeperEnabled: (address => “enabled” => address)
+    * VaultBalances (StorageDoubleMap)
+      * Balance: (address => “tokenID” => number)
+    * Dividends (StorageDoubleMap)
+      * Dividend: (address => “tokenID” => number)
+  * Public Methods
+    * registerKeeper(address)
+    * listKeepers() -> Vec<Keeper>
+    * removeKeeper(keeperAddress)
+    * runKeeper(address) -> CallResult
+    * disableKeeper(address)
+    * enableKeeper(address)
+    * claimDividend()
+    * Custom dispatchable extrinsics (for calling from Chain Extension in Keepers)
+      * Here we would implement predefined cross-parachain XCMP calls, dispatchable from inside the contract. For example executing a specific trade in Acala, for which all tokens and permissions are already in place.
+    * Additionally, methods provided by the Contracts Pallet will be exposed as well. These allow for deployment and instantiation of the SmartContracts.
 * Keeper (SmartContract)
- * All the usual Ink! Functionality is available.
- * We may enforce a 
- * Documented Chain Extensions from the Runtime
-  * Cross-Parachain functionality
-  * Offchain Worker functionality
+  * All the usual Ink! Functionality is available.
+  * We may enforce a 
+  * Documented Chain Extensions from the Runtime
+    * Cross-Parachain functionality
+    * Offchain Worker functionality
 
 
 
